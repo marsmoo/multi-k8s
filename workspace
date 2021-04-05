@@ -1,0 +1,57 @@
+<NotepadPlus>
+    <Project name="complex">
+        <Folder name="client">
+            <Folder name="nginx">
+                <File name="client\nginx\default.conf" />
+            </Folder>
+            <Folder name="node_modules" />
+            <Folder name="public">
+                <File name="client\public\favicon.ico" />
+                <File name="client\public\index.html" />
+                <File name="client\public\logo192.png" />
+                <File name="client\public\logo512.png" />
+                <File name="client\public\manifest.json" />
+                <File name="client\public\robots.txt" />
+            </Folder>
+            <Folder name="src">
+                <File name="client\src\App.css" />
+                <File name="client\src\App.js" />
+                <File name="client\src\App.test.js" />
+                <File name="client\src\Fib.js" />
+                <File name="client\src\index.css" />
+                <File name="client\src\index.js" />
+                <File name="client\src\logo.svg" />
+                <File name="client\src\OtherPage.js" />
+                <File name="client\src\serviceWorker.js" />
+                <File name="client\src\setupTests.js" />
+            </Folder>
+            <File name="client\.gitignore" />
+            <File name="client\Dockerfile" />
+            <File name="client\Dockerfile.dev" />
+            <File name="client\package.json" />
+            <File name="client\README.md" />
+        </Folder>
+        <Folder name="k8s">
+            <File name="k8s\client-deployment.yaml" />
+            <File name="k8s\client-cluster-ip-service.yaml" />
+            <File name="k8s\server-deployment.yaml" />
+            <File name="k8s\server-cluster-ip-service.yaml" />
+        </Folder>
+        <Folder name="server">
+            <Folder name="node_modules" />
+            <File name="server\Dockerfile" />
+            <File name="server\Dockerfile.dev" />
+            <File name="server\index.js" />
+            <File name="server\keys.js" />
+            <File name="server\package.json" />
+        </Folder>
+        <Folder name="worker">
+            <Folder name="node_modules" />
+            <File name="worker\Dockerfile" />
+            <File name="worker\Dockerfile.dev" />
+            <File name="worker\index.js" />
+            <File name="worker\keys.js" />
+            <File name="worker\package.json" />
+        </Folder>
+    </Project>
+</NotepadPlus>
