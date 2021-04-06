@@ -1,5 +1,8 @@
 <NotepadPlus>
     <Project name="complex">
+        <File name=".travis.yml" />
+        <File name="deploy.sh" />
+        <File name="kubernetes-dashboard.yaml" />
         <Folder name="client">
             <Folder name="nginx">
                 <File name="client\nginx\default.conf" />
@@ -36,6 +39,13 @@
             <File name="k8s\client-cluster-ip-service.yaml" />
             <File name="k8s\server-deployment.yaml" />
             <File name="k8s\server-cluster-ip-service.yaml" />
+            <File name="k8s\worker-deployment.yaml" />
+            <File name="k8s\redis-deployment.yaml" />
+            <File name="k8s\redis-cluster-ip-service.yaml" />
+            <File name="k8s\postgres-deployment.yaml" />
+            <File name="k8s\postgres-cluster-ip-service.yaml" />
+            <File name="k8s\database-persistent-volume-claim.yaml" />
+            <File name="k8s\ingress-service.yaml" />
         </Folder>
         <Folder name="server">
             <Folder name="node_modules" />
