@@ -14,8 +14,8 @@ metadata:
 spec:
   tls:
     - hosts:
-        - milkbreadbutter.com
-        - www.milkbreadbutter.com
+      - milkbreadbutter.com
+      - www.milkbreadbutter.com
       secretName: milkbreadbutter-com
   rules:
     - host: milkbreadbutter.com
